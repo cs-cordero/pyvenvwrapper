@@ -30,3 +30,7 @@ Activates the environment located at `~/.venv/[env-name]`.  No need to source th
 
 #### `deactivate`
 Deactivates the currently activate environment (if any).
+
+## Author
+
+* **Christopher Sabater Cordero** - [cs-cordero](https://github.com/cs-cordero)
