@@ -29,7 +29,7 @@ Provides a list of environment names currently stored in `~/.venv`
 Activates the environment located at `~/.venv/[env-name]`.  No need to source the `activate` script in the environment folder!
 
 #### `deactivate`
-Deactivates the currently activate environment (if any).
+Deactivates the currently active environment (if any).
 
 ## Author
 
