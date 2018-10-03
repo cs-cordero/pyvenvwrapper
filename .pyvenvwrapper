@@ -1,12 +1,12 @@
 ################################################################################
 #   Python Venv Wrapper
-#   Export VENV_HOME to before sourcing this if you want
 ################################################################################
 
 if [ "${VENV_HOME:-}" = "" ]
 then
     export VENV_HOME="$HOME/.venv" # default
 fi
+
 # create if doesn't exist
 [[ -d "$VENV_HOME" ]] || mkdir "$VENV_HOME"
 
