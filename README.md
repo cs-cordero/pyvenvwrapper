@@ -65,6 +65,10 @@ Set this to any value if you don't want to use a VENV_PROJECT_DIRECTORY and you
 don't care whether it exists or not.  This may affect whether `workon` and/or
 `mkproj` commands are available to you.
 
+#### `VENV_SKIP_PIP_UPGRADE` (default: unset)
+Set this to any value if you don't want the `mkvenv` to upgrade pip to the
+latest version immediately after creating the environment.
+
 ## Author
 
 * **Christopher Sabater Cordero** - [cs-cordero](https://github.com/cs-cordero)
