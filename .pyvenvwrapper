@@ -122,6 +122,8 @@ mkvenv() {
     if source "${VENV_LOCATION:?}/bin/activate"; then
         echo "Python venv created at $VENV_LOCATION.";
     fi
+
+    [[ -z $VENV_SKIP_PIP_UPGRADE ]] && pip install --upgrade pip
 }
 
 rmvenv() {
